@@ -108,12 +108,8 @@ class CVMHttpClient():
         soup = BeautifulSoup(response.text, features="lxml")
         hdnNumeroSequencialDocumento = soup.find(
             id='hdnNumeroSequencialDocumento').attrs["value"]
-        element = soup.find(id='hdnCodigoTipoDocumento')
-        if element and 'value' in element.attrs:
-            hdnCodigoTipoDocumento = element.attrs["value"]
-        else:
-            # Lidar com a ausência do elemento ou do atributo 'value'
-            hdnCodigoTipoDocumento = None 
+        hdnCodigoTipoDocumento = soup.find(
+            id='hdnCodigoTipoDocumento').attrs["value"]
         # hdnCodigoCvm = soup.find(id='hdnCodigoCvm').attrs["value"]
         # hdnDescricaoDocumento = soup.find(id='hdnDescricaoDocumento').attrs["value"]
         hdnCodigoInstituicao = soup.find(
