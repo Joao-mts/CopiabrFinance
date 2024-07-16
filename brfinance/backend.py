@@ -37,7 +37,6 @@ class CVMAsyncBackend():
             category: list = None,
             last_ref_date: bool = False
     ):
-
         if (not category) or (category is None):
             category = ['EST_-1', 'IPE_-1_-1_-1']
 
@@ -52,9 +51,10 @@ class CVMAsyncBackend():
             participant_type=str(
                 ",".join([str(item) for item in participant_type])),
             last_ref_date=last_ref_date)
+        
         response_class = GetSearchResponse(response=response)
 
-        return response_class.data()
+        return response_class
 
     def get_report(
             self,

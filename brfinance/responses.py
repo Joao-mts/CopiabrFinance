@@ -72,8 +72,8 @@ class GetSearchResponse():
                 search_results_df['cod_cvm'] = search_results_df['cod_cvm'].str.replace(
                     r'\D+', '', regex=True)
 
-                search_results_df = search_results_df.replace(
-                    {'</spanOrder>': ''}, regex=True).sort_values('data_entrega', ascending=False)
+                # search_results_df = search_results_df.replace(
+                #     {'</spanOrder>': ''}, regex=True).sort_values('data_entrega', ascending=False)
 
                 response_df = pd.concat([response_df, search_results_df], ignore_index=True) # aqui
 
