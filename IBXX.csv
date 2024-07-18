@@ -1,0 +1,86 @@
+﻿Codigo;Acao;Indices;Participacao;Setor
+RRRP3;3R PETROLEUM;Ibov;0,372;Petroleo, Gas e Biocombustiveis
+ALOS3;ALIANSCSONAE;Ibov;0,62;Financeiro
+ALPA4;ALPARGATAS;Ibov;0,094;Consumo Ciclico
+ABEV3;AMBEV S/A;Ibov;3,145;Consumo Nao-Ciclico
+ARZZ3;AREZZO CO;Ibov;0,24;Consumo Ciclico
+ASAI3;ASSAI;Ibov;0,798;Consumo Nao-Ciclico
+AZUL4;AZUL;Ibov;0,26;Bens Industriais
+B3SA3;B3;Ibov;3,91;Financeiro
+BBSE3;BBSEGURIDADE;Ibov;1,002;Financeiro
+BBDC3;BRADESCO;Ibov;1,003;Financeiro
+BBDC4;BRADESCO;Ibov;3,903;Financeiro
+BRAP4;BRADESPAR;Ibov;0,267;Materiais Basicos
+BBAS3;BRASIL;Ibov;3,39;Financeiro
+BRKM5;BRASKEM;Ibov;0,305;Materiais Basicos
+BRFS3;BRF SA;Ibov;0,85;Consumo Nao-Ciclico
+BPAC11;BTGP BANCO;Ibov;1,878;Financeiro
+CRFB3;CARREFOUR BR;Ibov;0,313;Consumo Nao-Ciclico
+CCRO3;CCR SA;Ibov;0,638;Bens Industriais
+CMIG4;CEMIG;Ibov;0,865;Utilidade Publica
+CIEL3;CIELO;Ibov;0,21;Financeiro
+COGN3;COGNA ON;Ibov;0,283;Consumo Ciclico
+CPLE6;COPEL;Ibov;0,682;Utilidade Publica
+CSAN3;COSAN;Ibov;1,053;Petroleo, Gas e Biocombustiveis
+CPFE3;CPFL ENERGIA;Ibov;0,323;Utilidade Publica
+CMIN3;CSNMINERACAO;Ibov;0,225;Materiais Basicos
+CVCB3;CVC BRASIL;Ibov;0,057;Consumo Ciclico
+CYRE3;CYRELA REALT;Ibov;0,324;Consumo Ciclico
+DXCO3;DEXCO;Ibov;0,11;Materiais Basicos
+ELET3;ELETROBRAS;Ibov;3,493;Utilidade Publica
+ELET6;ELETROBRAS;Ibov;0,525;Utilidade Publica
+EMBR3;EMBRAER;Ibov;0,685;Bens Industriais
+ENGI11;ENERGISA;Ibov;0,595;Utilidade Publica
+ENEV3;ENEVA;Ibov;1,009;Utilidade Publica
+EGIE3;ENGIE BRASIL;Ibov;0,533;Utilidade Publica
+EQTL3;EQUATORIAL;Ibov;1,777;Utilidade Publica
+EZTC3;EZTEC;Ibov;0,11;Consumo Ciclico
+GGBR4;GERDAU;Ibov;1,368;Materiais Basicos
+GOAU4;GERDAU MET;Ibov;0,391;Materiais Basicos
+GOLL4;GOL;Ibov;0,085;Bens Industriais
+GMAT3;GRUPO MATEUS;;;Consumo Nao-Ciclico
+NTCO3;GRUPO NATURA;Ibov;0,68;Consumo Nao-Ciclico
+SOMA3;GRUPO SOMA;Ibov;0,217;Consumo Ciclico
+IGTI11;IGUATEMI S.A;Ibov;0,227;Financeiro
+IRBR3;IRBBRASIL RE;Ibov;0,178;Financeiro
+ITSA4;ITAUSA;Ibov;2,378;Financeiro
+ITUB4;ITAUUNIBANCO;Ibov;6,463;Financeiro
+JBSS3;JBS;Ibov;1,089;Consumo Nao-Ciclico
+KLBN11;KLABIN S/A;Ibov;0,788;Materiais Basicos
+RENT3;LOCALIZA;Ibov;2,644;Consumo Ciclico
+LWSA3;LOCAWEB;Ibov;0,145;Tecnologia
+LREN3;LOJAS RENNER;Ibov;0,824;Consumo Ciclico
+MGLU3;MAGAZ LUIZA;Ibov;0,43;Consumo Ciclico
+MRFG3;MARFRIG;Ibov;0,158;Consumo Nao-Ciclico
+CASH3;MELIUZ;Ibov;0,025;Tecnologia
+BEEF3;MINERVA;Ibov;0,139;Consumo Nao-Ciclico
+MRVE3;MRV;Ibov;0,243;Consumo Ciclico
+MULT3;MULTIPLAN;Ibov;0,354;Financeiro
+PCAR3;P.ACUCAR-CBD;Ibov;0,156;Consumo Nao-Ciclico
+PETR3;PETROBRAS;Ibov;5,15;Petroleo, Gas e Biocombustiveis
+PETR4;PETROBRAS;Ibov;7,186;Petroleo, Gas e Biocombustiveis
+PRIO3;PETRORIO;Ibov;1,892;Petroleo, Gas e Biocombustiveis
+PETZ3;PETZ;Ibov;0,089;Consumo Ciclico
+RADL3;RAIADROGASIL;Ibov;1,552;Saude
+RAIZ4;RAIZEN;Ibov;0,215;Consumo Nao-Ciclico
+RDOR3;REDE D OR;Ibov;1,626;Saude
+SBSP3;SABESP;Ibov;1,016;Utilidade Publica
+SANB11;SANTANDER BR;Ibov;0,469;Financeiro
+SMTO3;SAO MARTINHO;Ibov;0,23;Consumo Nao-Ciclico
+CSNA3;SID NACIONAL;Ibov;0,36;Materiais Basicos
+SLCE3;SLC AGRICOLA;Ibov;0,208;Consumo Nao-Ciclico
+SUZB3;SUZANO S.A.;Ibov;1,839;Materiais Basicos
+TAEE11;TAESA;Ibov;0,379;Utilidade Publica
+VIVT3;TELEF BRASIL;Ibov;0,9;Comunicacoes
+TIMS3;TIM;Ibov;0,601;Comunicacoes
+TOTS3;TOTVS;Ibov;0,716;Tecnologia
+UGPA3;ULTRAPAR;Ibov;0,994;Petroleo, Gas e Biocombustiveis
+USIM5;USIMINAS;Ibov;0,176;Materiais Basicos
+VALE3;VALE;Ibov;12,334;Materiais Basicos
+BHIA3;VIA;Ibov;0,139;Consumo Ciclico
+VBBR3;VIBRA;Ibov;0,992;Petroleo, Gas e Biocombustiveis
+WEGE3;WEG;Ibov;2,282;Bens Industriais
+YDUQ3;YDUQS PART;Ibov;0,328;Consumo Ciclico
+WIN$;;;0;
+WDO$;;;0;
+DI1F33;;;0;

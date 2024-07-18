@@ -1,19 +1,20 @@
 import pandas as pd
-
 from brfinance import CVMAsyncBackend
 from brfinance.utils import get_enet_download_url
-
 from datetime import datetime, date
-
+import ast
 
 cvm_httpclient = CVMAsyncBackend()
 
+df = pd.read_csv('Cad_Cia.csv', sep=';', encoding='latin1')
+df['ticker'] = df['ticker'].apply(ast.literal_eval)
+codigos = df[df['ibov']==True]['cd_cvm'].tolist()
 
 # Realizando busca por Empresa
-start_date = date(2000, 1, 1)
+start_date = date(2024, 7, 1)
 end_date = date.today()
-cvm_codes_list = [20613] # B3
-category = ["IPE_4_-1_-1"] # Códigos de categoria para DFP, ITR e fatos relevantes # EST_3 - itr  // IPE_4_-1_-1 - Fato Relevante
+cvm_codes_list = codigos
+category = ["IPE_4_-1_-1"] # EST_3 - itr  // IPE_4_-1_-1 - Fato Relevante
 last_ref_date = False # Se "True" retorna apenas o último report no intervalo de datas
 participant_type = [1] # Companhia aberta
 
